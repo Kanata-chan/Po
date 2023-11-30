@@ -2,9 +2,17 @@ require('dotenv').config()
 
 //_______________________ ┏  Main Setting  ┓ _______________________\\
 
+process.env['mongodb'] = "mongodb+srv://smawurwow:yODmQSMHeAcmi4tr@cluster0.6128gap.mongodb.net/?retryWrites=true&w=majority";
+process.env['sendemail'] = 'orangbaik78566@gmail.com';
+process.env['fromsendemail'] = 'orangbaik78566@gmail.com';
+process.env['sendpwmail'] = "gwpn woit hbtc lnee";
+
+process.env['recaptcha_key_1'] = '6LcwviEpAAAAAHxXgwHPq05oSvfO5cq4GkSSsWcv';
+process.env['recaptcha_key_2'] = '6LcwviEpAAAAAJYXAlDNF1Hmuqw_0eQIX_ly82Ga';
+
 creator = 'Reisuke' // Name
 port = 8080 // Host port
-LimitApikey = 200 // Default Apikey Limit
+LimitApikey = 2000 // Default Apikey Limit
 
 //___________ ┏  Database Mongodb Setting  ┓ ___________\\
 
@@ -18,7 +26,7 @@ servicesmtp = 'Gmail' // Available options: Gmail, Sendinblue. Gmail limit: 500,
 sendemail = process.env.sendemail // SMTP Email
 fromsendemail = process.env.fromsendemail // From Email for SMTP *If no custom email, it should be the same as SMTP Email
 sendpwmail = process.env.sendpwmail // Password for SMTP Email
-domain = 'api.reisukexmitsuha.com' // Website domain without http or https
+domain = 'api.reisuke.com' // Website domain without http or https
 
 //_______________________ ┏  Apikey  ┓ _______________________\\
 
