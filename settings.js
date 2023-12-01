@@ -2,15 +2,9 @@ require('dotenv').config()
 
 //_______________________ ┏  Main Setting  ┓ _______________________\\
 
-process.env['mongodb'] = "mongodb+srv://smawurwow:yODmQSMHeAcmi4tr@cluster0.6128gap.mongodb.net/?retryWrites=true&w=majority";
-process.env['sendemail'] = 'orangbaik78566@gmail.com';
-process.env['fromsendemail'] = 'orangbaik78566@gmail.com';
-process.env['sendpwmail'] = "gwpn woit hbtc lnee";
 
-process.env['recaptcha_key_1'] = '6LcwviEpAAAAAHxXgwHPq05oSvfO5cq4GkSSsWcv';
-process.env['recaptcha_key_2'] = '6LcwviEpAAAAAJYXAlDNF1Hmuqw_0eQIX_ly82Ga';
 
-creator = 'Reisuke' // Name
+creator = '乂ReisukexMitsuha乂' // Name
 port = 8080 // Host port
 LimitApikey = 2000 // Default Apikey Limit
 
